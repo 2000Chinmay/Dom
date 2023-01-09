@@ -46,6 +46,9 @@ var Header = document.getElementById('main-header');
 var item = document.querySelector('#items');
 console.log(item.parentNode);
 
+//parentElement
+console.log(item.parentElement);
+
 item.parentNode.style.backgroundColor = 'yellow';
 
 //childNode
